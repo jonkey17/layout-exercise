@@ -1,3 +1,5 @@
+@import '../../variables';
+
 .Card{
   margin-bottom: 36px;
 
@@ -6,32 +8,32 @@
 
     .Name{
       display: inline-block;
-      background: #eee;
+      background: $loading-bg;
       height: 18px;
       width: 200px;
 
     }
     .Price{
       float: right;
-      background: #eee;
+      background: $loading-bg;
       height: 18px;
       width: 46px;
     }
   }
 
   .Description {
-    background: #eee;
+    background: $loading-bg;
     margin-bottom: 26px;
     height: 12px;
     width: 140px;
   }
 
   .Tags {
-    display: flex;
+    @include flexbox;
     justify-content: space-between;
 
     .Tag{
-      background: #eee;
+      background: $loading-bg;
       height: 12px;
       width: 30%;
     }
@@ -41,7 +43,7 @@
   }
 
   @media screen and (min-width: 992px) {
+    @include flex-basis(calc(50% - 30px));
     margin-left: 15px;
-    flex-basis: calc(50% - 30px);
   }
 }

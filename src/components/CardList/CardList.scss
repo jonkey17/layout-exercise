@@ -1,14 +1,16 @@
+@import '../../variables';
+
 .CardList {
   padding: 12px;
 
   @media screen and (min-width: 768px){
-    flex: 1;
+    @include flex(1);
   }
 
   @media screen and (min-width: 992px){
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    flex: 2;
+    @include flexbox;
+    @include flex(2);
+    @include flex-wrap(wrap);
+    @include justify-content(space-evenly);
   }
 }
