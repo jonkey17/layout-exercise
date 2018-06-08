@@ -13,7 +13,12 @@
       background: #eee;
       margin-top: 12px;
       margin-right: 12px;
-      width: 45%;
+      flex: 1;
+    }
+  }
+
+  @media screen and (min-width: 992px) {
+    .Map {
     }
   }
 }
