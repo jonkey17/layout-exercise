@@ -1,6 +1,9 @@
 {
-  "main.css": "static/css/main.150aed50.css",
-  "main.css.map": "static/css/main.150aed50.css.map",
-  "main.js": "static/js/main.0a76fa50.js",
-  "main.js.map": "static/js/main.0a76fa50.js.map"
+  "main.js": "static/js/main.54f3a57d.js",
+  "main.js.map": "static/js/main.54f3a57d.js.map",
+  "static/media/App.scss": "static/media/App.e71ba913.scss",
+  "static/media/Card.scss": "static/media/Card.62300a73.scss",
+  "static/media/CardList.scss": "static/media/CardList.0d7f66f2.scss",
+  "static/media/Dashboard.scss": "static/media/Dashboard.715848a3.scss",
+  "static/media/index.scss": "static/media/index.8c28eaf3.scss"
 }

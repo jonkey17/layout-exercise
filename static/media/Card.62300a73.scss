@@ -1,0 +1,49 @@
+@import '../../variables.scss';
+
+.Card{
+  margin-bottom: 36px;
+
+  .Title{
+    margin-top: 12px;
+
+    .Name{
+      display: inline-block;
+      background: $loading-bg;
+      height: 18px;
+      width: 200px;
+
+    }
+    .Price{
+      float: right;
+      background: $loading-bg;
+      height: 18px;
+      width: 46px;
+    }
+  }
+
+  .Description {
+    background: $loading-bg;
+    margin-bottom: 26px;
+    height: 12px;
+    width: 140px;
+  }
+
+  .Tags {
+    @include flexbox;
+    justify-content: space-between;
+
+    .Tag{
+      background: $loading-bg;
+      height: 12px;
+      width: 30%;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 992px) {
+    @include flex-basis(calc(50% - 30px));
+    margin-left: 15px;
+  }
+}
