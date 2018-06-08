@@ -1,14 +1,13 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.scss';
 
-import CardList from './components/CardList';
+import Dashboard from './components/Dashboard';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <CardList />
+        <Dashboard />
       </div>
     );
   }

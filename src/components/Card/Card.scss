@@ -3,35 +3,41 @@
 
   .Title{
     margin-top: 12px;
+
     .Name{
+      display: inline-block;
       background: #eee;
       height: 18px;
-      display: inline-block;
       width: 200px;
 
     }
     .Price{
+      float: right;
       background: #eee;
       height: 18px;
-      float: right;
       width: 46px;
     }
   }
 
   .Description {
     background: #eee;
-    height: 12px;
     margin-bottom: 26px;
+    height: 12px;
     width: 140px;
   }
 
   .Tags {
     display: flex;
     justify-content: space-between;
+
     .Tag{
       background: #eee;
       height: 12px;
       width: 30%;
     }
+  }
+
+  @media screen and (min-width: 768px) {
+  flex: 1;
   }
 }

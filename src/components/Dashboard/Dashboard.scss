@@ -1,0 +1,19 @@
+.Dashboard {
+
+  .Map {
+    display: none;
+  }
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+    margin: 12px;
+
+    .Map {
+      display: block;
+      background: #eee;
+      margin-top: 12px;
+      margin-right: 12px;
+      width: 45%;
+    }
+  }
+}
